@@ -11,6 +11,7 @@ function Navbar() {
       <NavbarButton buttonDest={"home"} active={current === "home"}/>
       <NavbarButton buttonDest={"about"} active={current === "about"}/>
       <NavbarButton buttonDest={"projects"} active={current === "projects"}/>
+      <NavbarButton buttonDest={"gallery"} active={current === "gallery"}/>
     </div>
   );
 }

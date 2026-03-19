@@ -91,3 +91,45 @@ a {
 footer {
   margin-top: 20px;
 }
+
+/* PROJECTS */
+.gallery {
+  width: 100%;
+}
+.gallery-item {
+  width: 100%;
+  display: flex;
+  margin: 15px 0px;
+}
+.gallery-item img {
+  flex: 1;
+  width: 40%;
+  transition: 0.3s;
+}
+.gallery-item p {
+  margin: 0;
+  flex: 1;
+  padding: 30px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  /* border-left: 1px solid black; */
+}
+.gallery img:hover {
+  transform: scale(1.05) rotate(-1deg);
+  transition: 0.3s;
+  box-shadow: 0 6px 20px #08013a71;
+}
+.title {
+  font-size: larger;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.lang {
+  display: block;
+  color: grey;
+  margin-top: 10px;
+}
