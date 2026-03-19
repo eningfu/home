@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&VT323&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 5% 10%;
+  font-family: "VT323", "Darumadrop One", sans-serif;
+  text-align: center; 
+  align-items: center;
+  font-size: large;
+  color: rgb(50, 50, 50);
 }
 
-.App-link {
-  color: #61dafb;
+/* NAVBAR + BUTTONS */
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.navbar-btn {
+  background-color: white;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 5px 10px;
+  border-radius: 10px 10px 0 0;
+  width: 10%;
+  box-shadow: 0 0 50px rgb(236, 236, 236);  
+  transition: 0.3s ease-in-out;
+}
+.navbar-btn:hover, .active {
+  padding: 5px 10px 10px 10px;
+  color: #ff2bbf;
+  border-color: #ff2bbf;
+}
+.navbar-btn:hover {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* HOME */
+.container {
+  z-index: 1;
+  flex-direction: row;
+  display: flex;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgb(236, 236, 236);  
+}
+.hello-image { 
+  flex: 1; 
+}
+.hello-text {
+  text-align: left;
+  margin-left: 30px;
+  flex: 2;
+}
+.hello-text h1, .hello-text h2 {
+  margin-bottom: 15px;
+}
+hr {
+  margin: 10px 0;
+}
+a {
+  color: #ff2bbf;
+  text-decoration:none; 
+}
+.fab:not(:last-child) {
+  margin-right: 10px;
+}
+.list {
+  display: flex;
+  gap: 10px;
+}
+.group {
+  width: 50%;
+}
+.group h1 {
+  margin: 20px 0;
+}
+.svg-row img {
+  width: 30px;
+}
+.svg-row img:not(:last-child) {
+  margin-right: 10px;
+}
+footer {
+  margin-top: 20px;
 }
