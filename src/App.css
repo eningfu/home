@@ -28,7 +28,7 @@ body {
   font-size: inherit;
   padding: 5px 10px;
   border-radius: 10px 10px 0 0;
-  width: 10%;
+  width: 15%;
   box-shadow: 0 0 50px rgb(236, 236, 236);  
   transition: 0.3s ease-in-out;
 }
@@ -104,7 +104,7 @@ footer {
 .gallery-item img {
   flex: 1;
   width: 40%;
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
 }
 .gallery-item p {
   margin: 0;
@@ -117,9 +117,12 @@ footer {
   border-bottom: 1px solid black;
   /* border-left: 1px solid black; */
 }
+.gallery img {
+  transition: 0.3s ease-in-out;
+}
 .gallery img:hover {
   transform: scale(1.05) rotate(-1deg);
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
   box-shadow: 0 6px 20px #08013a71;
 }
 .title {
@@ -132,4 +135,52 @@ footer {
   display: block;
   color: grey;
   margin-top: 10px;
+}
+
+
+@media screen and (max-width: 900px)  {
+  .navbar {
+
+  }
+  .navbar-btn {
+    width: 25%;
+    font-size: medium;
+  }
+  .container {
+    display: block;
+  }
+  .hello-image {
+    max-width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .hello {
+    display: block;
+  }
+  .hello h1, .hello h2 {
+    text-align: center;
+  }
+  .hello-text {
+    margin-left: 0px;
+  }
+  .gallery-item {
+    display: block;
+  }
+  .gallery-item img {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .gallery-item p {
+    margin-top: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-top-right-radius: 0px;
+  }
+  .gallery img {
+    width: 100%;
+  }
 }
