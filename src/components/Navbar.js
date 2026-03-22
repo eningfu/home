@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 function Navbar() {
   const location = useLocation();
 
-  const current = location.pathname.replace("/", "") || "home";
+  const current = location.pathname.split("/").filter(Boolean).pop() || "home";
 
   return (
     <div className="navbar">
