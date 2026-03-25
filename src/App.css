@@ -117,10 +117,10 @@ footer {
   border-bottom: 1px solid black;
   /* border-left: 1px solid black; */
 }
-.gallery img {
+.gallery img, .gallery video {
   transition: 0.3s ease-in-out;
 }
-.gallery img:hover {
+.gallery img:hover, .gallery video:hover {
   transform: scale(1.05) rotate(-1deg);
   transition: 0.3s ease-in-out;
   box-shadow: 0 6px 20px #08013a71;
@@ -148,6 +148,7 @@ footer {
   }
   .container {
     display: block;
+    border-radius: 0 0 20px 20px;
   }
   .hello-image {
     max-width: 100%;
