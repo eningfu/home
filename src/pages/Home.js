@@ -12,6 +12,7 @@ import pythonLogo from "../assets/logo-python.png";
 import bashLogo from "../assets/logo-bash.png";
 import vsLogo from "../assets/logo-vs.png";
 import adobeLogo from "../assets/logo-adobe.png";
+import figmaLogo from "../assets/logo-figma.png";
 import blenderLogo from "../assets/logo-blender.png";
 import unrealLogo from "../assets/logo-unreal.png";
 import aspLogo from "../assets/logo-asperite.png";
@@ -69,6 +70,7 @@ function Home() {
           <div class="svg-row">
             <img src={vsLogo} alt="VS Code" />
             <img src={adobeLogo} alt="Adobe Creative Suite" />
+            <img src={figmaLogo} alt="Figma" />
             <img src={blenderLogo} alt="Blender" />
             <img src={unrealLogo} alt="Unreal Engine" />
             <img src={aspLogo} alt="Asperite" />
