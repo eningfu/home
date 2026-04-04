@@ -26,10 +26,10 @@ function Home() {
     <>
       <Navbar />
       <div className="container">
-        <div class="hello-image">
-          <img class="profile-photo" src={avatar} alt="Profile Doodle" width="80%" />
+        <div className="hello-image">
+          <img className="profile-photo" src={avatar} alt="Profile Doodle" width="80%" />
         </div>
-        <div class="hello-text"> 
+        <div className="hello-text"> 
           <h1>Hello! I'm Em 🫧</h1>
           <h2>
             <span style={textstyle}>student </span>| 
@@ -41,19 +41,19 @@ function Home() {
             <br /><br />
             I also have fun with graphic design and video editing ☆
           </p>
-          <div class="icons">
+          <div className="icons">
             <hr />
-            <a href="https://www.linkedin.com/in/emilyning/" class="fab fa-linkedin"></a>
-            <a href="https://github.com/eningfu" class="fab fa-github"></a>
-            <a href="mailto:eningfu@gmail.com" class="fa fa-envelope"></a>
+            <a href="https://www.linkedin.com/in/emilyning/" className="fab fa-linkedin"></a>
+            <a href="https://github.com/eningfu" className="fab fa-github"></a>
+            <a href="mailto:eningfu@gmail.com" className="fa fa-envelope"></a>
           </div>
         </div>
       </div>
 
-      <div class="list">
-        <div class="group">
+      <div className="list">
+        <div className="group">
           <h1>Languages</h1>
-          <div class="svg-row">
+          <div className="svg-row">
             <img src={htmlLogo} alt="HTML" />
             <img src={cssLogo} alt="CSS" />
             <img src={jsLogo} alt="JavaScript" />
@@ -65,9 +65,9 @@ function Home() {
             <img src={bashLogo} alt="Bash" />
           </div>
         </div>
-        <div class="group">
+        <div className="group">
           <h1>Software</h1>
-          <div class="svg-row">
+          <div className="svg-row">
             <img src={vsLogo} alt="VS Code" />
             <img src={adobeLogo} alt="Adobe Creative Suite" />
             <img src={figmaLogo} alt="Figma" />

@@ -8,7 +8,7 @@ import Gallery from './pages/Gallery';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
