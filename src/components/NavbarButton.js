@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-function NavbarButton({ buttonName, buttonDest, active }) {
+function NavbarButton({ buttonDest, active }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -8,7 +8,7 @@ function NavbarButton({ buttonName, buttonDest, active }) {
   };
 
   return (
-    <button className={active ? "navbar-btn active" : "navbar-btn"} onClick={handleClick}>{buttonName}</button>
+    <button className={active ? "navbar-btn active" : "navbar-btn"} onClick={handleClick}>{buttonDest}</button>
   );
 }
 
