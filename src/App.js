@@ -8,9 +8,9 @@ import Gallery from './pages/Gallery';
 function App() {
   return (
     <>
-      <BrowserRouter basename="/">
+      <BrowserRouter>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/gallery" element={<Gallery />} />
