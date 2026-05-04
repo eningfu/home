@@ -7,11 +7,11 @@
 }
 body {
   justify-content: center;
-  font-family: "VT323", "Darumadrop One", sans-serif;
+  font-family: "VT323", monospace, sans-serif;
   text-align: center; 
   align-items: center;
   font-size: large;
-  color: rgb(50, 50, 50);
+  color: black;
 }
 .main {
   margin: 2% 10% 0 10%;
@@ -173,7 +173,7 @@ footer {
 
 @media screen and (max-width: 900px)  {
   .main {
-    margin: 5% 10% 0% 10%;
+    margin: 5% 5% 0% 5%;
   }
   .navbar {
 
@@ -217,13 +217,13 @@ footer {
   }
   .gallery-item p {
     margin-top: 0px;
-    border-bottom-left-radius: 20px;
+    /* border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-left: 1px solid black;
     border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    border-top: none;
-    border-top-right-radius: 0px;
+    border-bottom: 1px solid black; */
+    /* border-top: none;
+    border-top-right-radius: 0px; */
   }
   .gallery img {
     width: 100%;
