@@ -16,6 +16,9 @@ import figmaLogo from "../assets/logo-figma.png";
 import blenderLogo from "../assets/logo-blender.png";
 import unrealLogo from "../assets/logo-unreal.png";
 import aspLogo from "../assets/logo-asperite.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const textstyle = {
   color: "#ff2bbf",
@@ -24,56 +27,62 @@ const textstyle = {
 function Home() {
   return (
     <>
-      <Navbar />
-      <div className="container">
-        <div className="hello-image">
-          <img className="profile-photo" src={avatar} alt="Profile Doodle" width="80%" />
-        </div>
-        <div className="hello-text"> 
-          <h1>Hello! I'm Em 🫧</h1>
-          <h2>
-            <span style={textstyle}>student </span>| 
-            <span style={textstyle}> coder </span> | 
-            <span style={textstyle}> artist </span>
-          </h2>
-          <p>
-            3rd year student @ UNSW majoring in Computer Science with a strong interest in UI/UX and front-end development. 
-            <br /><br />
-            I also have fun with graphic design and video editing ☆
-          </p>
-          <div className="icons">
-            <hr />
-            <a href="https://www.linkedin.com/in/emilyning/" className="fab fa-linkedin"></a>
-            <a href="https://github.com/eningfu" className="fab fa-github"></a>
-            <a href="mailto:eningfu@gmail.com" className="fa fa-envelope"></a>
+      <div className="main">
+        <Navbar />
+        <div className="container">
+          <div className="hello-image">
+            <img className="profile-photo" src={avatar} alt="Profile Doodle" width="80%" />
+          </div>
+          <div className="hello-text"> 
+            <h1>Hello! I'm Em 🫧</h1>
+            <h2>
+              <span style={textstyle}>student </span>| 
+              <span style={textstyle}> coder </span> | 
+              <span style={textstyle}> artist </span>
+            </h2>
+            <p>
+              I do web development, ui/ux, design, illustration, animation and videoediting
+            </p>
+            <div className="icons">
+              <hr />
+              <a href="https://www.linkedin.com/in/emilyning/">
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+              <a href="https://github.com/eningfu">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              <a href="mailto:eningfu@gmail.com">
+                <FontAwesomeIcon icon={faEnvelope} />
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="list">
-        <div className="group">
-          <h1>Languages</h1>
-          <div className="svg-row">
-            <img src={htmlLogo} alt="HTML" />
-            <img src={cssLogo} alt="CSS" />
-            <img src={jsLogo} alt="JavaScript" />
-            <img src={tsLogo} alt="TypeScript" />
-            <img src={reactLogo} alt="React" />
-            <img src={nodeLogo} alt="Node JS" />
-            <img src={gitLogo} alt="Git" />
-            <img src={pythonLogo} alt="Python" />
-            <img src={bashLogo} alt="Bash" />
+        <div className="list">
+          <div className="group">
+            <h1>Languages</h1>
+            <div className="svg-row">
+              <img src={htmlLogo} alt="HTML" />
+              <img src={cssLogo} alt="CSS" />
+              <img src={jsLogo} alt="JavaScript" />
+              <img src={tsLogo} alt="TypeScript" />
+              <img src={reactLogo} alt="React" />
+              <img src={nodeLogo} alt="Node JS" />
+              <img src={gitLogo} alt="Git" />
+              <img src={pythonLogo} alt="Python" />
+              <img src={bashLogo} alt="Bash" />
+            </div>
           </div>
-        </div>
-        <div className="group">
-          <h1>Software</h1>
-          <div className="svg-row">
-            <img src={vsLogo} alt="VS Code" />
-            <img src={adobeLogo} alt="Adobe Creative Suite" />
-            <img src={figmaLogo} alt="Figma" />
-            <img src={blenderLogo} alt="Blender" />
-            <img src={unrealLogo} alt="Unreal Engine" />
-            <img src={aspLogo} alt="Asperite" />
+          <div className="group">
+            <h1>Software</h1>
+            <div className="svg-row">
+              <img src={vsLogo} alt="VS Code" />
+              <img src={adobeLogo} alt="Adobe Creative Suite" />
+              <img src={figmaLogo} alt="Figma" />
+              <img src={blenderLogo} alt="Blender" />
+              <img src={unrealLogo} alt="Unreal Engine" />
+              <img src={aspLogo} alt="Asperite" />
+            </div>
           </div>
         </div>
       </div>

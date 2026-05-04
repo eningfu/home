@@ -13,18 +13,20 @@ import Footer from "../components/Footer";
 function Projects() {
   return (
     <>
-      <Navbar />
-      <div className="container">
-        <div className="gallery">
-          {projects.map((project, index) => (
-            <Card
-              key={index}
-              img={project.img}
-              title={project.title}
-              description={project.description}
-              languages={project.languages.join(", ")}
-            />
-          ))}
+      <div className="main">
+        <Navbar />
+        <div className="container-proj">
+          <div className="gallery">
+            {projects.map((project, index) => (
+              <Card
+                key={index}
+                img={project.img}
+                title={project.title}
+                description={project.description}
+                languages={project.languages.join(", ")}
+              />
+            ))}
+          </div>
         </div>
       </div>
       <Footer />
