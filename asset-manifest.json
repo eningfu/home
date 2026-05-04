@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.0057af8c.css",
-    "main.js": "/home/static/js/main.4efca451.js",
+    "main.css": "/home/static/css/main.203c1347.css",
+    "main.js": "/home/static/js/main.1c6ecad4.js",
     "static/js/453.e9e7ec89.chunk.js": "/home/static/js/453.e9e7ec89.chunk.js",
     "static/media/gallery-gd.png": "/home/static/media/gallery-gd.e3ee977d134ce4643dcf.png",
     "static/media/logo-python.png": "/home/static/media/logo-python.812b2f4d36216235c498.png",
@@ -22,17 +22,18 @@
     "static/media/avatar.png": "/home/static/media/avatar.89401f1f2643e9522b45.png",
     "static/media/logo-asperite.png": "/home/static/media/logo-asperite.93e1e972e319a8a56a6d.png",
     "static/media/logo-css.png": "/home/static/media/logo-css.77a7249b88d621ae3ec7.png",
+    "static/media/typeface.png": "/home/static/media/typeface.996e85816b470d08eb62.png",
     "static/media/logo-git.png": "/home/static/media/logo-git.c432ce8d341c843e0059.png",
     "static/media/logo-js.png": "/home/static/media/logo-js.ba4267ddeaf2d0c22eee.png",
     "static/media/logo-figma.png": "/home/static/media/logo-figma.10a413b0c4627e216282.png",
     "static/media/logo-unreal.png": "/home/static/media/logo-unreal.8538879394dea9f27873.png",
     "index.html": "/home/index.html",
-    "main.0057af8c.css.map": "/home/static/css/main.0057af8c.css.map",
-    "main.4efca451.js.map": "/home/static/js/main.4efca451.js.map",
+    "main.203c1347.css.map": "/home/static/css/main.203c1347.css.map",
+    "main.1c6ecad4.js.map": "/home/static/js/main.1c6ecad4.js.map",
     "453.e9e7ec89.chunk.js.map": "/home/static/js/453.e9e7ec89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0057af8c.css",
-    "static/js/main.4efca451.js"
+    "static/css/main.203c1347.css",
+    "static/js/main.1c6ecad4.js"
   ]
 }
