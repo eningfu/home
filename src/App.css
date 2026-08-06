@@ -15,6 +15,9 @@ body {
 }
 .main {
   margin: 2% 10% 0 10%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* NAVBAR + BUTTONS */
@@ -48,7 +51,7 @@ body {
 }
 
 /* HOME */
-.container, .container-proj, .container-gallery {
+.container, .container-proj, .container-gallery, .container-about {
   background-color: white;
   position: relative;
   z-index: 1;
@@ -118,6 +121,16 @@ footer {
   background-color: #ff2bbf;
 }
 
+/* ABOUT */
+.container-about {
+  display: block;
+  text-align: left;
+}
+
+.about-sec {
+  margin-bottom: 10px;
+}
+
 /* PROJECTS */
 .container-proj {
   padding: 0px;
@@ -169,7 +182,27 @@ footer {
 }
 
 /* GALLERY */
+.container-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 
+.container-gallery figure {
+  margin: 0;
+}
+
+.container-gallery img,
+.container-gallery video {
+  width: 100%;
+  display: block;
+}
+
+figcaption {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 0.9rem;
+}
 
 @media screen and (max-width: 900px)  {
   .main {
@@ -217,6 +250,7 @@ footer {
   }
   .gallery-item p {
     margin-top: 0px;
+    padding-left: 0px;
     /* border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-left: 1px solid black;

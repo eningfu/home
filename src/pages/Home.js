@@ -41,7 +41,7 @@ function Home() {
               <span style={textstyle}> artist </span>
             </h2>
             <p>
-              I do web development, ui/ux, design, illustration, animation and videoediting
+              I do web development, ui/ux, design, illustration, animation and video editing
             </p>
             <div className="icons">
               <hr />
