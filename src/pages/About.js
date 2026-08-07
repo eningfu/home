@@ -34,7 +34,7 @@ function About() {
             Led the planning and delivery of a student training program, coordinating learning materials and supporting participants through technical workshops. <br/>
           </p>
           <p className="about-sec">
-            In addition, I am also a freelance artist, specialising in character illustrations, 2D animations, and video editing. I create artwork for personal projects and client commissions.
+            In my free time, I am a digital artist specialising in character illustrations, 2D animations, and video editing. I create artwork for personal projects and client commissions.
           </p>
         </div>
       </div>

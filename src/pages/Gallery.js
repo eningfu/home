@@ -8,7 +8,7 @@ import nm from "../assets/nosmax.gif";
 import pm from "../assets/pxmail.png";
 import beat from "../assets/beat.gif";
 import login from "../assets/log in.gif";
-import food from "../assets/food-illust.png";
+import subcom from "../assets/subcom.png";
 
 function Gallery() {
   return (
@@ -39,8 +39,8 @@ function Gallery() {
           </div>
           <div className="middle">
             <figure>
-              <img src={food} alt="Sketches of flan, a float, and a slice of cake" />
-              <figcaption>Food study sketch (2025)</figcaption>
+              <img src={subcom} alt="Banners for UNSW PuzzleSoc" />
+              <figcaption>Promotional graphics for UNSW PuzzleSoc (2024)</figcaption>
             </figure>
 
             <figure>
