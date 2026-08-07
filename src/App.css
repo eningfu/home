@@ -161,14 +161,6 @@ footer {
   border-bottom: 1px solid black; */
   /* border-left: 1px solid black; */
 }
-.gallery img, .gallery video {
-  transition: 0.3s ease-in-out;
-}
-.gallery img:hover, .gallery video:hover {
-  transform: scale(1.01);
-  transition: 0.3s ease-in-out;
-  box-shadow: 0 6px 20px #08013a71;
-}
 .title {
   font-size: larger;
   display: block;

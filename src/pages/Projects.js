@@ -2,7 +2,7 @@ import Card from "../components/Card";
 import Navbar from "../components/Navbar";
 
 import jiraImg from "../assets/proj-jira.png";
-// import gameImg from "../assets/proj-game.png";
+import protoImg from "../assets/proj-proto.png";
 import profileImg from "../assets/proj-profile.png";
 import roomImg from "../assets/proj-er.png";
 import presImg from "../assets/proj-pr.png";
@@ -40,20 +40,20 @@ export const projects = [
   {
     img: jiraImg,
     title: "Atlassian Forge: JiraQuest",
-    description: "A custom Atlassian Forge app that \"game-fies\" Jira. Users can level up, collect coins, and customise their profile based on activity, transforming routine task management into a more engaging experience.",
+    description: "A custom Atlassian Forge app that gamifies Jira. Users can level up, collect coins, and customise their profile based on activity, transforming routine task management into a more engaging experience.",
     languages: ["html", "css", "javascript", "react", "git", "figma"]
   },
-  // {
-  //   img: gameImg,
-  //   title: "(WIP) Mini Arcade",
-  //   description: "Just a bunch of mini-games.",
-  //   languages: ["html", "css", "javascript", "react", "git"]
-  // },
   {
     img: profileImg,
     title: "Y2K-Style Character Wiki",
     description: "A character wiki designed as a faux early-2000s social media platform. Instead of a traditional encyclopedia layout, character information is distributed across profiles, logs, and posts, encouraging exploration.",
     languages: ["html", "css", "javascript"]
+  },
+  {
+    img: protoImg,
+    title: "Mobile App Prototype for Beekeepers",
+    description: "A high-fidelity mobile app prototype designed for beekeepers of all experience levels. The app provides access to beekeeping news, interactive maps, educational articles, videos, and resources, helping users monitor, learn, and engage with the beekeeping community in one accessible platform.",
+    languages: ["figma"]
   },
   {
     img: roomImg,
