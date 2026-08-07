@@ -8,10 +8,10 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <NavbarButton buttonDest={"home"} active={current === "home"}/>
-      <NavbarButton buttonDest={"about"} active={current === "about"}/>
-      <NavbarButton buttonDest={"projects"} active={current === "projects"}/>
-      <NavbarButton buttonDest={"gallery"} active={current === "gallery"}/>
+      <NavbarButton buttonDest={"home"} label="home" active={current === "home"}/>
+      <NavbarButton buttonDest={"about"} label="about me" active={current === "about"}/>
+      <NavbarButton buttonDest={"projects"} label="web projects" active={current === "projects"}/>
+      <NavbarButton buttonDest={"gallery"} label="art/video" active={current === "gallery"}/>
     </div>
   );
 }

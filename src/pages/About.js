@@ -8,7 +8,7 @@ function About() {
         <Navbar />
         <div className="container-about">
           <p className="about-sec">
-            Hello, I graduated the University of New South Wales with a Bachelor of Science (Computer Science) with experience in frontend development, software projects, and teaching.
+            I graduated from the University of New South Wales with a Bachelor of Science (Computer Science) with experience in frontend development, software projects, and teaching.
           </p>
           <p className="about-sec">
             During my studies, I have taken on roles including:
