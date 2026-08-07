@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.f64fac97.css",
-    "main.js": "/home/static/js/main.93becc08.js",
+    "main.css": "/home/static/css/main.91f4de15.css",
+    "main.js": "/home/static/js/main.97a766f5.js",
     "static/js/453.e9e7ec89.chunk.js": "/home/static/js/453.e9e7ec89.chunk.js",
+    "static/media/log in.gif": "/home/static/media/log in.a1f8d837aba2b7d2bb1b.gif",
     "static/media/gallery-gd.png": "/home/static/media/gallery-gd.e3ee977d134ce4643dcf.png",
-    "static/media/nalina-blockb.mp4": "/home/static/media/nalina-blockb.db06bbaf66c557e1059f.mp4",
+    "static/media/beat.gif": "/home/static/media/beat.dce6eb0322855cb2bc43.gif",
+    "static/media/nosmax.gif": "/home/static/media/nosmax.e375852a2449629ee171.gif",
+    "static/media/nalina.gif": "/home/static/media/nalina.55fd201204360bae8547.gif",
     "static/media/logo-python.png": "/home/static/media/logo-python.812b2f4d36216235c498.png",
     "static/media/logo-vs.png": "/home/static/media/logo-vs.151d34471e21a34ad96d.png",
     "static/media/proj-sb.png": "/home/static/media/proj-sb.cfd04f3b9aa9423f36a8.png",
@@ -23,18 +26,19 @@
     "static/media/avatar.png": "/home/static/media/avatar.89401f1f2643e9522b45.png",
     "static/media/logo-asperite.png": "/home/static/media/logo-asperite.93e1e972e319a8a56a6d.png",
     "static/media/logo-css.png": "/home/static/media/logo-css.77a7249b88d621ae3ec7.png",
-    "static/media/typeface.png": "/home/static/media/typeface.996e85816b470d08eb62.png",
+    "static/media/pxmail.png": "/home/static/media/pxmail.a08eede204fe10b652c7.png",
+    "static/media/typeface.png": "/home/static/media/typeface.686c77e36fd61f9a5de4.png",
     "static/media/logo-git.png": "/home/static/media/logo-git.c432ce8d341c843e0059.png",
     "static/media/logo-js.png": "/home/static/media/logo-js.ba4267ddeaf2d0c22eee.png",
     "static/media/logo-figma.png": "/home/static/media/logo-figma.10a413b0c4627e216282.png",
     "static/media/logo-unreal.png": "/home/static/media/logo-unreal.8538879394dea9f27873.png",
     "index.html": "/home/index.html",
-    "main.f64fac97.css.map": "/home/static/css/main.f64fac97.css.map",
-    "main.93becc08.js.map": "/home/static/js/main.93becc08.js.map",
+    "main.91f4de15.css.map": "/home/static/css/main.91f4de15.css.map",
+    "main.97a766f5.js.map": "/home/static/js/main.97a766f5.js.map",
     "453.e9e7ec89.chunk.js.map": "/home/static/js/453.e9e7ec89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f64fac97.css",
-    "static/js/main.93becc08.js"
+    "static/css/main.91f4de15.css",
+    "static/js/main.97a766f5.js"
   ]
 }
