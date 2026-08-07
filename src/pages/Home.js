@@ -20,8 +20,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-const textstyle = {
-  color: "#ff2bbf",
+const style = {
+  color: "rgb(255, 43, 191)",
 }
 
 function Home() {
@@ -36,13 +36,23 @@ function Home() {
           <div className="hello-text"> 
             <h1>Hello! I'm Em 🫧</h1>
             <h2>
-              <span style={textstyle}>student </span>| 
-              <span style={textstyle}> coder </span> | 
-              <span style={textstyle}> artist </span>
+              I like making things with
+              <span style={style}> code </span> +
+              <span style={style}> art</span>.
             </h2>
-            <p>
-              I do web development, design, illustration, animation and video editing.
-            </p>
+            <div class="marquee-cont">
+              <div class="marquee-track">
+                <div class="marquee-group">
+                  <span>web dev • design • illustration • animation • video editing • </span>
+                </div>
+                <div class="marquee-group">
+                  <span>web dev • design • illustration • animation • video editing • </span>
+                </div>
+                <div class="marquee-group">
+                  <span>web dev • design • illustration • animation • video editing • </span>
+                </div>
+              </div>
+            </div>
             <div className="icons">
               <hr />
               <a href="https://www.linkedin.com/in/emilyning/">
