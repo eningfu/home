@@ -8,6 +8,7 @@ import nm from "../assets/nosmax.gif";
 import pm from "../assets/pxmail.png";
 import beat from "../assets/beat.gif";
 import login from "../assets/log in.gif";
+import food from "../assets/food-illust.png";
 
 function Gallery() {
   return (
@@ -37,6 +38,11 @@ function Gallery() {
             </figure>            
           </div>
           <div className="middle">
+            <figure>
+              <img src={food} alt="Sketches of flan, a float, and a slice of cake" />
+              <figcaption>Food study sketch (2025)</figcaption>
+            </figure>
+
             <figure>
               <img src={gd} alt="Posters" />
               <figcaption>Simple poster designs (2023)</figcaption>
