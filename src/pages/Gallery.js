@@ -6,7 +6,6 @@ import tf from "../assets/typeface.png";
 import mg from "../assets/nalina.gif";
 import nm from "../assets/nosmax.gif";
 import pm from "../assets/pxmail.png";
-import beat from "../assets/beat.gif";
 import login from "../assets/log in.gif";
 import subcom from "../assets/subcom.png";
 
@@ -20,11 +19,6 @@ function Gallery() {
             <figure>
               <img src={login} alt="Character signing in onto webpage" />
               <figcaption>POV Computer Interaction Scene [Created with Premiere Pro] (2026)</figcaption>
-            </figure>
-
-            <figure>
-              <img src={beat} alt="Motion graphics" />
-              <figcaption>Beat-Synced Motion Graphic Background [Created with Premiere Pro] (2026)</figcaption>
             </figure>
 
             <figure>
