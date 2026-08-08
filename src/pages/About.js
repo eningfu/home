@@ -31,7 +31,7 @@ function About() {
           <p className="about-sec">
             <b>Training Program Lead</b><br/>
             UNSW DevSoc | 2023 - 2023 <br/>
-            Participated in a term-long training program, working in a team to plan and develop a web project while gaining experience in collaborative software development.
+            Led new trainee cohorts each term through a term-long training program, guiding groups in planning and developing web projects while building collaborative software development skills.
           </p>
           <p className="about-sec">
             In my free time, I am a digital artist specialising in character illustrations, 2D animations, and video editing. I create artwork for personal projects and client commissions.
