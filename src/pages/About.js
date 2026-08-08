@@ -26,12 +26,12 @@ function About() {
           <p className="about-sec">
             <b>Coding Teacher</b><br/>
             CompClub | 2023 - 2025 <br/>
-            Taught programming concepts to high school students through workshops and educational programs, helping students develop their coding skills.
+            Taught programming concepts to high school students through workshops and educational programs, adapting lessons to different levels of experience.
           </p>
           <p className="about-sec">
             <b>Training Program Lead</b><br/>
             UNSW DevSoc | 2023 - 2023 <br/>
-            Led the planning and delivery of a student training program, coordinating learning materials and supporting participants through technical workshops. <br/>
+            Participated in a term-long training program, working in a team to plan and develop a web project while gaining experience in collaborative software development.
           </p>
           <p className="about-sec">
             In my free time, I am a digital artist specialising in character illustrations, 2D animations, and video editing. I create artwork for personal projects and client commissions.
