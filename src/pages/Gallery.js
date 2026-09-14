@@ -8,6 +8,9 @@ import nm from "../assets/nosmax.gif";
 import pm from "../assets/pxmail.png";
 import login from "../assets/log in.gif";
 import subcom from "../assets/subcom.png";
+import illust from "../assets/illust.png";
+import pixel_gif from "../assets/px_hey.gif";
+import pixel_bust from "../assets/px_char.png";
 
 function Gallery() {
   return (
@@ -16,6 +19,11 @@ function Gallery() {
         <Navbar />
         <div className="container-gallery">
           <div className="left">
+            <figure>
+              <img src={illust} alt="Digital illustration of a starry night garden" />
+              <figcaption>Digital illustration (2024)</figcaption>
+            </figure>
+
             <figure>
               <img src={login} alt="Character signing in onto webpage" />
               <figcaption>POV Computer Interaction Scene [Created with Premiere Pro] (2026)</figcaption>
@@ -43,6 +51,16 @@ function Gallery() {
             </figure>
           </div>
           <div className="right">
+            <figure>
+              <img src={pixel_gif} alt="Pixel art of a brown haired character blinking with speech bubble" />
+              <figcaption>Bust sprite GIF (2025)</figcaption>
+            </figure>
+
+            <figure>
+              <img src={pixel_bust} alt="Pixel art of a white-haired character" />
+              <figcaption>Bust sprite (2025)</figcaption>
+            </figure>
+
             <figure>
               <img src={tf} alt="Typeface" />
               <figcaption>3x4 Pixel Typeface (2026)</figcaption>
