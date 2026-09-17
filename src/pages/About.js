@@ -1,6 +1,5 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import BackToTop from "../components/BackToTop";
 
 function About() {
   return (
@@ -48,7 +47,6 @@ function About() {
           </p>
         </div>
       </div>
-      <BackToTop />
       <Footer />
     </>
   );
