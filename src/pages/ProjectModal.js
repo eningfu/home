@@ -1,12 +1,4 @@
-import { useParams } from "react-router-dom";
-import { projects } from "./Projects";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-
-function ProjectDetails() {
-  const { id } = useParams();
-
-  const project = projects.find((project) => project.id === id);
+function ProjectModal({ project, onClose }) {
 
   if (!project) {
     return <h1>Project not found</h1>;
@@ -14,9 +6,15 @@ function ProjectDetails() {
 
   return (
     <>
-      <div className="main">
-        <Navbar />
-        <div className="container-details">
+      <div className="project-modal-overlay" onClick={onClose}>
+        <div className="project-modal" onClick={(e) => e.stopPropagation()}>
+          <button
+            className="project-modal-close"
+            onClick={onClose}
+            aria-label="Close project details"
+          >
+            ×
+          </button>
           <h1 className="project-title">{project.title}</h1>
 
           <div className="section">
@@ -45,9 +43,8 @@ function ProjectDetails() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
 
-export default ProjectDetails;
+export default ProjectModal;

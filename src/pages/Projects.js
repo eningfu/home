@@ -1,5 +1,8 @@
+import { useState } from "react";
+
 import Card from "../components/Card";
 import Navbar from "../components/Navbar";
+import ProjectModal from "./ProjectModal";
 
 import jiraImg from "../assets/proj-jira.png";
 import jiraSoloImg from "../assets/proj-jira-solo.png";
@@ -17,6 +20,8 @@ import sleepImg from "../assets/proj-sb.png";
 import Footer from "../components/Footer";
 
 function Projects() {
+  const [selectedProject, setSelectedProject] = useState(null);
+
   return (
     <>
       <div className="main">
@@ -30,12 +35,17 @@ function Projects() {
                 title={project.title}
                 description={project.description}
                 link={`/projects/${project.id}`}
+                onReadMore={() => setSelectedProject(project)}
               />
             ))}
           </div>
         </div>
       </div>
       <Footer />
+      <ProjectModal
+        project={selectedProject}
+        onClose={() => setSelectedProject(null)}
+      />
     </>
   );
 }

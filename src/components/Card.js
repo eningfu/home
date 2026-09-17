@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
-
-function Card({ img, title, description, link }) {
+function Card({ img, title, description, onReadMore }) {
   return (
     <div className="gallery-item">
       <img src={img} alt={title} />
@@ -9,9 +7,9 @@ function Card({ img, title, description, link }) {
           <span className="title">{title}</span>
           {description}
         </p>
-        <Link to={link} className="read-more">
+        <button className="read-more" onClick={onReadMore}>
           Read More →
-        </Link>
+        </button>
       </div>
     </div>
   );

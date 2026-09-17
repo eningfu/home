@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Gallery from './pages/Gallery';
-import ProjectDetails from './pages/ProjectDetails';
+import ProjectModal from './pages/ProjectModal';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/projects/:id" element={<ProjectDetails />} />
+          <Route path="/projects/:id" element={<ProjectModal />} />
         </Routes>
       </BrowserRouter>
     </>
