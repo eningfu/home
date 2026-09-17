@@ -300,7 +300,6 @@ figcaption {
 
   background: rgba(0, 0, 0, 0.6);
 }
-
 .project-modal {
   position: relative;
   max-width: 90vw;
@@ -311,7 +310,6 @@ figcaption {
   border: 5px solid var(--line-color);
   box-shadow: 5px 5px 0 var(--line-color);
 }
-
 .project-modal-close {
   position: absolute;
   top: 15px;
@@ -414,5 +412,9 @@ figcaption {
   }
   .project-images img:not(:last-child) {
     margin-bottom: 10px;
+  }
+  .project-modal-close {
+    top: 5px;
+    right: 10px;
   }
 }

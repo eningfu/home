@@ -1,4 +1,6 @@
 function ProjectModal({ project, onClose }) {
+  if (!project) return null;
+  
   return (
     <>
       <div className="project-modal-overlay" onClick={onClose}>
