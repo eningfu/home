@@ -1,9 +1,4 @@
 function ProjectModal({ project, onClose }) {
-
-  if (!project) {
-    return <h1>Project not found</h1>;
-  }
-
   return (
     <>
       <div className="project-modal-overlay" onClick={onClose}>
