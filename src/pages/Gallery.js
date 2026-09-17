@@ -11,6 +11,7 @@ import subcom from "../assets/subcom.png";
 import illust from "../assets/illust.png";
 import pixel_gif from "../assets/px_hey.gif";
 import pixel_bust from "../assets/px_char.png";
+import mucons from "../assets/mucons.png";
 
 function Gallery() {
   return (
@@ -48,6 +49,11 @@ function Gallery() {
             <figure>
               <img src={gd} alt="Posters" />
               <figcaption>Simple poster designs (2023)</figcaption>
+            </figure>
+
+            <figure>
+              <img src={mucons} alt="Game buttons" />
+              <figcaption>Pixel Art Game Buttons (2022)</figcaption>
             </figure>
           </div>
           <div className="right">

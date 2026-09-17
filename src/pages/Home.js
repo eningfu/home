@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+
 import avatar from "../assets/avatar.png";
 import htmlLogo from "../assets/logo-html.png";
 import cssLogo from "../assets/logo-css.png";
@@ -20,10 +21,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-const style = {
-  color: "rgb(255, 43, 191)",
-}
-
 function Home() {
   return (
     <>
@@ -34,36 +31,40 @@ function Home() {
             <img className="profile-photo" src={avatar} alt="Profile Doodle" width="80%" />
           </div>
           <div className="hello-text"> 
-            <h1>Hello! I'm Em 🫧</h1>
-            <h2>
-              I like making things with
-              <span style={style}> code </span> +
-              <span style={style}> art</span>.
-            </h2>
-            <div class="marquee-cont">
-              <div class="marquee-track">
-                <div class="marquee-group">
+            <h1 className="welcome">Hello!</h1>
+            <h2 className="intro">My name is <i>Emily Ning</i>.</h2>
+            <p className="short-abt">
+              Welcome to my portfolio website! I like making things with
+              <span className="highlight"> <a href="/projects">code</a> </span> +
+              <span className="highlight"> <a href="/gallery">art</a></span>.
+            </p>
+            <div className="marquee-cont">
+              <div className="marquee-track">
+                <div className="marquee-group">
                   <span>web dev • design • illustration • animation • video editing • </span>
                 </div>
-                <div class="marquee-group">
+                <div className="marquee-group">
                   <span>web dev • design • illustration • animation • video editing • </span>
                 </div>
-                <div class="marquee-group">
+                <div className="marquee-group">
                   <span>web dev • design • illustration • animation • video editing • </span>
                 </div>
               </div>
             </div>
-            <div className="icons">
+            <div>
               <hr />
-              <a href="https://www.linkedin.com/in/emilyning/">
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
-              <a href="https://github.com/eningfu">
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
-              <a href="mailto:eningfu@gmail.com">
-                <FontAwesomeIcon icon={faEnvelope} />
-              </a>
+              <div className="icons">
+                <p>Get in touch:</p>
+                <a href="https://www.linkedin.com/in/emilyning/">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                <a href="https://github.com/eningfu">
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+                <a href="mailto:eningfu@gmail.com">
+                  <FontAwesomeIcon icon={faEnvelope} />
+                </a>
+              </div>
             </div>
           </div>
         </div>

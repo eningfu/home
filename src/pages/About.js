@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import BackToTop from "../components/BackToTop";
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
         <Navbar />
         <div className="container-about">
           <p className="about-sec">
-            I graduated from the University of New South Wales with a Bachelor of Science (Computer Science) with experience in frontend development, software projects, and teaching.
+            I graduated from the <u>University of New South Wales</u> with a Bachelor of Science (Computer Science) with experience in frontend development, software projects, and teaching.
           </p>
           <p className="about-sec">
             During my studies, I have taken on roles including:
@@ -24,6 +25,11 @@ function About() {
             Represented UNSW at student events, assisting with outreach activities and providing guidance to prospective and current students.
           </p>
           <p className="about-sec">
+            <b>Design Executive</b><br/>
+            UNSW PuzzleSoc | 2024 - 2025 <br/>
+            Designed promotional graphics and visual assets for UNSW PuzzleSoc events and social media, maintaining a consistent visual style across club materials.
+          </p>
+          <p className="about-sec">
             <b>Coding Teacher</b><br/>
             CompClub | 2023 - 2025 <br/>
             Taught programming concepts to high school students through workshops and educational programs, adapting lessons to different levels of experience.
@@ -36,8 +42,13 @@ function About() {
           <p className="about-sec">
             In my free time, I am a digital artist specialising in character illustrations, 2D animations, and video editing. I create artwork for personal projects and client commissions.
           </p>
+          <p className="about-sec">
+            If you’d like to get in touch about a project or collaboration, feel free to 
+            <span className="highlight"> <a href="mailto:eningfu@gmail.com">get in touch</a></span>!
+          </p>
         </div>
       </div>
+      <BackToTop />
       <Footer />
     </>
   );
