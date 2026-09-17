@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.e6cc470c.css",
-    "main.js": "/home/static/js/main.848ffafe.js",
-    "static/js/453.e9e7ec89.chunk.js": "/home/static/js/453.e9e7ec89.chunk.js",
+    "main.css": "/home/static/css/main.54309f83.css",
+    "main.js": "/home/static/js/main.415b74d5.js",
+    "static/js/453.1f960028.chunk.js": "/home/static/js/453.1f960028.chunk.js",
     "static/media/nalina.gif": "/home/static/media/nalina.124722bb4792b9f403c8.gif",
     "static/media/log in.gif": "/home/static/media/log in.00073cba457011902927.gif",
     "static/media/gallery-gd.png": "/home/static/media/gallery-gd.e3ee977d134ce4643dcf.png",
@@ -13,12 +13,17 @@
     "static/media/logo-vs.png": "/home/static/media/logo-vs.151d34471e21a34ad96d.png",
     "static/media/proj-sb.png": "/home/static/media/proj-sb.cfd04f3b9aa9423f36a8.png",
     "static/media/proj-jira.png": "/home/static/media/proj-jira.94a9a6d7321a9cb831fa.png",
+    "static/media/proj-jira-ele.png": "/home/static/media/proj-jira-ele.2793815b2225ccf3e05b.png",
     "static/media/proj-proto.png": "/home/static/media/proj-proto.e3935c0a1515103c9643.png",
     "static/media/proj-profile.png": "/home/static/media/proj-profile.6214bdda5187bef3cfc6.png",
+    "static/media/proj-figma.png": "/home/static/media/proj-figma.b006baef996db4a1aece.png",
     "static/media/proj-er.png": "/home/static/media/proj-er.96e5cd5f4ce291613737.png",
+    "static/media/proj-jira-db.png": "/home/static/media/proj-jira-db.0630cf3d220f757f5944.png",
+    "static/media/proj-jira-solo.png": "/home/static/media/proj-jira-solo.7f2d857128b78697a89a.png",
     "static/media/logo-ts.png": "/home/static/media/logo-ts.9a95414de453bdae653c.png",
     "static/media/px_hey.gif": "/home/static/media/px_hey.c961d3b830ed7d41787a.gif",
     "static/media/proj-fyf.png": "/home/static/media/proj-fyf.61f65ae633e01046706f.png",
+    "static/media/proj-jira-ab.png": "/home/static/media/proj-jira-ab.440ab2440e59da4349ce.png",
     "static/media/logo-node.png": "/home/static/media/logo-node.4085e35f2c8f59550ecd.png",
     "static/media/proj-pr.png": "/home/static/media/proj-pr.41cadd05499c69c54104.png",
     "static/media/logo-html.png": "/home/static/media/logo-html.3b0a77b0ff6efbb5ec54.png",
@@ -34,15 +39,16 @@
     "static/media/px_char.png": "/home/static/media/px_char.971b29580ac6a9452e41.png",
     "static/media/logo-git.png": "/home/static/media/logo-git.c432ce8d341c843e0059.png",
     "static/media/logo-js.png": "/home/static/media/logo-js.ba4267ddeaf2d0c22eee.png",
+    "static/media/mucons.png": "/home/static/media/mucons.a5dc3e19e1b3fb26dfb5.png",
     "static/media/logo-figma.png": "/home/static/media/logo-figma.10a413b0c4627e216282.png",
     "static/media/logo-unreal.png": "/home/static/media/logo-unreal.8538879394dea9f27873.png",
     "index.html": "/home/index.html",
-    "main.e6cc470c.css.map": "/home/static/css/main.e6cc470c.css.map",
-    "main.848ffafe.js.map": "/home/static/js/main.848ffafe.js.map",
-    "453.e9e7ec89.chunk.js.map": "/home/static/js/453.e9e7ec89.chunk.js.map"
+    "main.54309f83.css.map": "/home/static/css/main.54309f83.css.map",
+    "main.415b74d5.js.map": "/home/static/js/main.415b74d5.js.map",
+    "453.1f960028.chunk.js.map": "/home/static/js/453.1f960028.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6cc470c.css",
-    "static/js/main.848ffafe.js"
+    "static/css/main.54309f83.css",
+    "static/js/main.415b74d5.js"
   ]
 }
