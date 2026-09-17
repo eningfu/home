@@ -42,7 +42,7 @@ function About() {
             In my free time, I am a digital artist specialising in character illustrations, 2D animations, and video editing. I create artwork for personal projects and client commissions.
           </p>
           <p className="about-sec">
-            If you’d like to get in touch about a project or collaboration, feel free to 
+            If you’d like to discuss a project or collaboration, feel free to 
             <span className="highlight"> <a href="mailto:eningfu@gmail.com">get in touch</a></span>!
           </p>
         </div>
